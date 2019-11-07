@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+    <BaseInfo>
+        <Tier>1</Tier>
+    </BaseInfo>
+    
+    <ItemInfo>
+		<IsFood>1</IsFood>
+        <Weight>1</Weight>
+        <StackCount>4</StackCount>
+        <StackType>Beside</StackType>
+	</ItemInfo>
+
+    <LocalizationInfo>
+		<Language>English</Language>
+		<Content>
+            ObjectType.HarvestedPumpkin = Harvested Pumpkin
+            ObjectType.HarvestedPumpkin.Desc = A harvested pumpkin.
+        </Content>
+	</LocalizationInfo>
+
+    <LocalizationInfo>
+		<Language>German</Language>
+		<Content>
+            ObjectType.HarvestedPumpkin = Geernteter Kürbis
+            ObjectType.HarvestedPumpkin.Desc = Ein geernteter Kürbis.
+        </Content>
+	</LocalizationInfo>
+</info>

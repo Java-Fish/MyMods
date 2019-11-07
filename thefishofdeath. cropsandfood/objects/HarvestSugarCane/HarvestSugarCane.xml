@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+
+    <BaseInfo>
+        <Tier>1</Tier>
+    </BaseInfo>
+
+    <LocalizationInfo>
+        <Language>English</Language>
+        <Content>
+       ObjectType.SugarCane = Sugarcane
+       ObjectType.SugarCane.Desc = Sugarcane is a crop that can be used to produce sugar.
+        </Content>
+    </LocalizationInfo>
+    <LocalizationInfo>
+        <Language>German</Language>
+        <Content>
+       ObjectType.SugarCane = Zuckerschote
+       ObjectType.SugarCane.Desc = Zuckerschoten sind Pflanzen aus denen Zucker gewonnen werden kann.
+        </Content>
+    </LocalizationInfo>
+    
+    <MineableInfo>
+        <MinesTo>HarvestedSugarCane</MinesTo>
+    </MineableInfo>
+
+    <ModelInfo>
+        <Height>1.25</Height>
+        <BuildFrames>5</BuildFrames>
+    </ModelInfo>
+
+    <PlantInfo>
+        <GrowTime>50</GrowTime>
+        <IsCrop>1</IsCrop>
+        <GrowsOnTile>Floor_LightGrass</GrowsOnTile>
+    </PlantInfo>
+    
+    
+</info>

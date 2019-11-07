@@ -1,0 +1,10 @@
+Error loading mod /Users/maximilianfischer/Library/Application Support/unity.Unity Technologies.Unity Labs/MyMods/thefishofdeath. christmastree/objects/ChristmasTree/ChristmasTree: System.Exception: Error parsing: SocialBuildingInfo:SettlerInteractionSpots: for /Users/maximilianfischer/Library/Application Support/unity.Unity Technologies.Unity Labs/MyMods/thefishofdeath. christmastree/objects/ChristmasTree/ChristmasTree.xml ---> System.Exception: Invalid number of field in position and rotation (0 != 6).
+  at ExtensionMethods.ToPositionAndRotation (System.String r) [0x0001f] in <853f3a55a86043e194b1689045760008>:0 
+  at (wrapper delegate-invoke) System.Func`2[System.String,PositionAndRotation].invoke_TResult_T(string)
+  at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].ToArray () [0x00012] in <fc8f020b2cc84cefa8241445cf28089b>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <fc8f020b2cc84cefa8241445cf28089b>:0 
+  at XMLReflectionReader.ProcessGeometryTypes[T] (System.Reflection.FieldInfo field, T infocomp, System.String innerText) [0x000f8] in <853f3a55a86043e194b1689045760008>:0 
+  at XMLReflectionReader.XMLToComponentList (System.String file) [0x00194] in <853f3a55a86043e194b1689045760008>:0 
+   --- End of inner exception stack trace ---
+  at XMLReflectionReader.XMLToComponentList (System.String file) [0x00242] in <853f3a55a86043e194b1689045760008>:0 
+  at UserModRepo.Load[T] (System.String dir, UserModInfoCollection umic, System.String suffix, System.Action`1[T] OnFinish) [0x0008a] in <853f3a55a86043e194b1689045760008>:0 

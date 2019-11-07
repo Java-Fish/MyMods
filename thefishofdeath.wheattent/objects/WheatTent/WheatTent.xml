@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+
+	<BaseInfo>
+		<Size>3</Size>
+        <Tier>1</Tier>
+	</BaseInfo>
+    
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.WheatTent = Wheat Tent
+           ObjectType.WheatTent.Desc = A small place for your colonists to rest.
+       </Content>
+    </LocalizationInfo>
+
+    <LocalizationInfo>
+       <Language>German</Language>
+       <Content>
+           ObjectType.WheatTent = Weizenzelt
+           ObjectType.WheatTent.Desc = Ein kleiner Ort für deine Kolonistne zum ruhen.
+       </Content>
+    </LocalizationInfo>
+
+    <HouseInfo>
+        <Category>Decoration</Category>
+        <AllowAnimals>0</AllowAnimals>
+        <AllowColonists>1</AllowColonists>
+  		<HousingCapacity>2</HousingCapacity>
+  		<HousingQuality>1</HousingQuality>
+        <DisappearWhileSleeping>1</DisappearWhileSleeping>
+        <Entrance>-0.5,0,0</Entrance>
+        <ObstacleMap>
+            9,9,9
+            9,0,0
+            9,9,9
+        </ObstacleMap>
+    </HouseInfo>
+
+    <ModelInfo>
+        <SpecialPrefabs>Smoke,0.91,2.27,-0.65</SpecialPrefabs>
+  		<Height>3</Height>
+  		<BuildFrames>5</BuildFrames>
+    </ModelInfo>
+
+    <BuildingRecipeInfo>
+		<Ingredients>2*Log,2*HarvestedWheat</Ingredients>    
+	</BuildingRecipeInfo>
+</info>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+    <BaseInfo>
+        <Size>3</Size>
+        <Tier>1</Tier>
+     <!--   <AdditionalSpawns>TableRoof,0,0,0,0</AdditionalSpawns>-->
+    </BaseInfo>
+
+	<SocialBuildingInfo>
+        <Category>Decoration</Category>
+        <SettlerInteractionSpots>0.5,0,-0.5,0,270,0;0.5,0,0.5,0,270,0;-0.5,0,-0.5,0,90,0;-0.5,0,0.5,0,90,0</SettlerInteractionSpots>
+    </SocialBuildingInfo>
+
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.ChristmasTree = Christmas Tree
+           ObjectType.ChristmasTree.Desc = A beautiful place to gather for Christmas.
+       </Content>
+    </LocalizationInfo>
+
+    <LocalizationInfo>
+       <Language>German</Language>
+       <Content>
+           ObjectType.ChristmasTree = Weihnachtsbaum
+           ObjectType.ChristmasTree.Desc = Ein wunderschöner Ort um sich zu Weihnachten zu versammeln..
+       </Content>
+    </LocalizationInfo>
+
+    <ModelInfo>
+        <BuildFrames>2</BuildFrames>
+    </ModelInfo>
+
+	<BuildingRecipeInfo>
+		<Ingredients>2*Log</Ingredients>    
+	</BuildingRecipeInfo>
+</info>

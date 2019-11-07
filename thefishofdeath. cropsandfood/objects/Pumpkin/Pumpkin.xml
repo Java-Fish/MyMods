@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+
+    <BaseInfo>
+        <Tier>1</Tier>
+    </BaseInfo>
+
+    <LocalizationInfo>
+        <Language>English</Language>
+        <Content>
+       ObjectType.Pumpkin = Pumpkin
+       ObjectType.Pumpkin.Desc = Pumpkin is a crop that can be used for food.
+        </Content>
+    </LocalizationInfo>
+    <LocalizationInfo>
+        <Language>German</Language>
+        <Content>
+       ObjectType.Pumpkin = Kürbis
+       ObjectType.Pumpkin.Desc = Kürbisse sind Nutzpflanzen welche für Nahrung genutzt werden können.
+        </Content>
+    </LocalizationInfo>
+    
+    <MineableInfo>
+        <MinesTo>HarvestedPumpkin</MinesTo>
+    </MineableInfo>
+
+    <ModelInfo>
+        <Height>1.25</Height>
+        <BuildFrames>5</BuildFrames>
+    </ModelInfo>
+
+    <PlantInfo>
+        <GrowTime>150</GrowTime>
+        <IsCrop>1</IsCrop>
+        <GrowsOnTile>Floor_LightGrass,Floor_Desert_Oasis</GrowsOnTile>
+    </PlantInfo>
+    
+    
+</info>

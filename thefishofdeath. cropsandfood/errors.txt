@@ -1,0 +1,1 @@
+Warning: Model for Object type: HarvestedGreenTomato has too many vertices (960 per stack). Recommended is <450.

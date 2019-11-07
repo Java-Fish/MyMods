@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="info.xsd">
+    <!--Hint: If you use an xml editor, you can use the above xsd-file to get autocompletion and validation while editing.-->
+
+    
+    <UserModInfo>
+        <ModName>CropsAndFood</ModName>
+        <Version>0.1</Version>
+    </UserModInfo>
+
+
+    <LocalizationInfo>
+        <Language>English</Language>
+        <Content>
+            Mod.CropsAndFood = Crops and food mod
+            Mod.CropsAndFood.Desc = Adds crops and food.
+        </Content>
+    </LocalizationInfo>
+
+    <LocalizationInfo>
+        <Language>German</Language>
+        <Content>
+            Mod.CropsAndFood = Nutzpflanzen und Nahrungsmod
+            Mod.CropsAndFood.Desc = fügt diverse Nutzpflanzen und Nahrung hinzu.
+        </Content>
+    </LocalizationInfo>
+    
+    <!--Note: If the mod has multiple authors, you can have multiple UserModAuthor-blocks--> 
+    <UserModAuthor>
+        <AuthorName>thefishofdeath</AuthorName>
+        <Email></Email>
+    </UserModAuthor>
+</info>

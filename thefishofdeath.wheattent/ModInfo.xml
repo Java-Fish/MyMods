@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="info.xsd">
+    <!--Hint: If you use an xml editor, you can use the above xsd-file to get autocompletion and validation while editing.-->
+
+    <UserModInfo>
+        <ModName>WheatTent</ModName>
+        <Version>0.1</Version>
+    </UserModInfo>
+
+
+    <LocalizationInfo>
+        <Language>English</Language>
+        <Content>
+            Mod.WheatTent = Wheat Tent
+            Mod.WheatTent.Desc = A small dwelling. Better than nothing.
+        </Content>
+    </LocalizationInfo>
+    
+    <LocalizationInfo>
+        <Language>German</Language>
+        <Content>
+            Mod.WheatTent = Weizenzelt
+            Mod.WheatTent.Desc = Eine kleine Behausung. Besser als Nichts.
+        </Content>
+    </LocalizationInfo>
+
+
+    <!--Note: If the mod has multiple authors, you can have multiple UserModAuthor-blocks--> 
+    <UserModAuthor>
+        <AuthorName>thefishofdeath</AuthorName>
+        <Email></Email>
+    </UserModAuthor>
+</info>

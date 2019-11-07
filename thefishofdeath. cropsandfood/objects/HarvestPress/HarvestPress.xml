@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+	<BaseInfo>
+		<Size>3</Size>
+        <Tier>1</Tier>
+
+    </BaseInfo>
+
+	<ManualWorkshopInfo>
+        <Category>Food</Category>
+        <Icon>Beer</Icon>
+        <Priority>5.1</Priority>
+        <InputSpots>0.51,0,-0.4166;-0.166,0,-0.4166;-0.666,0,0.666</InputSpots>
+        <OutputSpots>0.51,0,-0.4166;-0.166,0,-0.4166</OutputSpots>
+        <SettlerInteractionSpots>0.0,0,-0.083,0,90,0</SettlerInteractionSpots>
+        <ObstacleMap>
+            5,9,9
+            0,0,9
+            5,5,9
+        </ObstacleMap>
+        <WarningFlagPosition>-1,0,-0.25</WarningFlagPosition>
+
+    </ManualWorkshopInfo>
+
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.Brewery = Brewery
+           ObjectType.Brewery.Desc = Used to produce beer, tea and other types of drinks.
+       </Content>
+    </LocalizationInfo>
+
+    <ModelInfo>
+    	<SpecialPrefabs>TorchLight</SpecialPrefabs>
+  		<BuildFrames>1</BuildFrames>
+    </ModelInfo>
+
+	<BuildingRecipeInfo>
+		<Ingredients>2*StoneBlock,Log</Ingredients>    
+	</BuildingRecipeInfo>
+</info>

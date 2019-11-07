@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+    <BaseInfo>
+        <Tier>1</Tier>
+    </BaseInfo>
+    
+    <ItemInfo>
+		<IsFood>1</IsFood>
+        <Weight>0.6</Weight>
+        <StackCount>4</StackCount>
+        <StackType>Beside</StackType>
+	</ItemInfo>
+
+    <LocalizationInfo>
+		<Language>English</Language>
+		<Content>
+            ObjectType.HarvestedCarrot = Harvested Carrot
+            ObjectType.HarvestedCarrot.Desc = A bunch of harvested carrots.
+        </Content>
+	</LocalizationInfo>
+
+    <LocalizationInfo>
+		<Language>German</Language>
+		<Content>
+            ObjectType.HarvestedCarrot = Geerntete Karotten
+            ObjectType.HarvestedCarrot.Desc = Ein Haufen geernte Karotten.
+        </Content>
+	</LocalizationInfo>
+</info>
